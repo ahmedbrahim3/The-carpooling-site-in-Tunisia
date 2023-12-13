@@ -2,6 +2,7 @@ import React, { useState,useEffect } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom'
 import { useNavigate } from "react-router-dom";
+
 const PostD=()=>{
 const [post,setPost]=useState(null)
 const [term,setTerm]=useState("")
@@ -43,9 +44,7 @@ const handleButtonClick = () => {
     e.preventDefault()
     setShowInput(false)
   }
-if (!post) {
-    return null
-  }
+ 
 
     return(
         

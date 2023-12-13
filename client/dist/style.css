@@ -237,12 +237,12 @@ header{
   gap: 10px;
   }
   .info{
-    margin-left: 428px;
+    margin-left: 382px;
     margin-top: -177px;
     color: #00cc7e;
   }
   .da{
-    margin-left: 352px;
+    margin-left: 315px;
     
   }
   
@@ -257,10 +257,12 @@ header{
   .mage{
     margin-top: -33px;
     border-radius:10px;
+    /* max-width: 50px; */
+    max-height: 142px;
   }
   .tas{
     border-radius:10px;
-    width: 237px;
+    width: 147px;
     margin-top: 14px;
     margin-left: 14px;
   }
@@ -374,6 +376,21 @@ header{
     display: flex;
     gap: 10px;
    }
+
+   .dateicon {
+    display: flex;
+    align-items: center;
+  }
+  .fa {
+margin-left: 150px;
+  }
+  .daa{
+    color: #00cc7e;
+  }
+
+
+  
+  
    
    
    

@@ -37,9 +37,9 @@ useEffect(()=>{
         </Link>
         <div className='i'>
         <img className='mage' src={e.image}/>
-            <p className='' id='A'>{e.date}</p>
-            <p className='' id='B'>{e.price} DT per seat</p>
-            <p className='' id='C'>{e.car}</p>
+            <p className='daa' id='A'>{e.date}</p>
+            <p className='' id='B'> <span style={{ color: '#00cc7e' }}>{e.price}</span> DT per seat</p>
+            <p className='' id='C'>car : <span style={{ color: '#00cc7e' }}>{e.car}</span></p>
             </div>
             </div>
         ))}

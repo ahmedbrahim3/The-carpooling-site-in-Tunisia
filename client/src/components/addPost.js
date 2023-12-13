@@ -28,9 +28,9 @@ const navigate = useNavigate()
         .catch((error) => console.log(error))
     }
     const uploadImg = async () => {
-        const form = new FormData();
-        form.append("file", file);
-        form.append("upload_preset", "ahmedsm");
+        const form = new FormData()
+        form.append("file", file)
+        form.append("upload_preset", "ahmedsm")
       
         try {
           const response = await axios.post(
@@ -40,7 +40,7 @@ const navigate = useNavigate()
         } catch (error) {
           console.log(error)
         }
-      };
+      }
       
     useEffect(() => {
         getByEmail()
